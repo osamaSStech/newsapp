@@ -10,7 +10,7 @@ export class NewsItem extends Component {
                 <div className="card-body">
                     <h5 className="card-title" style={{ height: '48px', width: '254px' }}>{(title.length > 42 ? title + '...' : title)}</h5>
                     <p className="card-text" style={{ height: '72px', width: '254px' }}>{(description.length > 79 ? description + '...' : description)}</p>
-                    <a href="/" className="btn btn-primary">Read More</a>
+                    <a href="/" className="btn btn-dark">Read More</a>
                 </div>
             </div>
         )
